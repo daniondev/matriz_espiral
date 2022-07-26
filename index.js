@@ -13,7 +13,7 @@ function solution(s) {
         for(let i = inicioFila; i < sFilas; i++){
             for(let j = inicioColumna; j < sColumnas; j++){
                 if(i == inicioFila){
-                  newMatriz.push(s[i][j]);
+                    newMatriz.push(s[i][j]);
                 }else if(i > inicioFila && i < sFilas - 1){
                     if(j == inicioColumna){
                         izq.push(s[i][j])                
